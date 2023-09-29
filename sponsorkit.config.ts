@@ -15,7 +15,7 @@ export default defineConfig({
     },
     {
       title: 'Sponsors',
-      monthlyDollars: 8,
+      monthlyDollars: 4,
       preset: presets.medium,
       composeAfter: (composer) => {
         composer.addSpan(10)
