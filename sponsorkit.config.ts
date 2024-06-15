@@ -3,6 +3,24 @@ import { defineConfig, presets } from 'sponsorkit'
 
 
 export default defineConfig({
+  renders: [
+    {
+      name: 'sponsors',
+      width: 800,
+      formats: ['svg', 'png'],
+    },
+    {
+      name: 'sponsors.wide',
+      width: 1000,
+      formats: ['svg', 'png'],
+    },
+    {
+      renderer: 'circles',
+      name: 'sponsors.circles',
+      width: 500,
+      includePastSponsors: true,
+    },
+  ],
   tiers: [
     {
       title: 'Past Sponsors',
