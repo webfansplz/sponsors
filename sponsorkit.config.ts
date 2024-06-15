@@ -3,6 +3,7 @@ import { defineConfig, presets } from 'sponsorkit'
 
 
 export default defineConfig({
+  outputDir: './',
   renders: [
     {
       name: 'sponsors',
@@ -17,7 +18,7 @@ export default defineConfig({
     {
       renderer: 'circles',
       name: 'sponsors.circles',
-      width: 500,
+      width: 320,
       includePastSponsors: true,
     },
   ],
