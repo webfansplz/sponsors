@@ -29,4 +29,4 @@ I'm webfansplz, a software engineer with a passion for open source. Active in th
 
 ## Thanks
 
-Built with [SponsorKit](https://github.com/antfu/sponsorkit).
+Built with [SponsorKit](https://github.com/antfu/sponsorkit)
